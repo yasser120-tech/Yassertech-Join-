@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sw">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YASSER TECH - Landing</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">YASSER TECH</a>
+      <nav class="nav">
+        <a href="#services">Huduma</a>
+        <a href="#about">Kuhusu</a>
+        <a href="#contact">Wasiliana</a>
+      </nav>
+      <button class="menu-toggle" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Tayari Kuanzisha Mradi Wako wa Teknolojia</h1>
+          <p>Huduma za web, bot, design na ushauri wa ki-tech. Tunafanya haraka, kisasa na kwa bei nafuu.</p>
+          <a class="btn-primary" href="#contact">Wasiliana Nasi</a>
+        </div>
+        <div class="hero-image">
+          <!-- Badilisha hapa na picha yako (png/jpg) -->
+          <img src="hero-placeholder.png" alt="Yasser Tech" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="features container">
+      <h2>Huduma Zetu</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Web Development</h3>
+          <p>Tovuti za biashara, landing pages, na e-commerce.</p>
+        </div>
+        <div class="card">
+          <h3>Design & Logo</h3>
+          <p>Logo za kitaalamu na picha za mitandao ya kijamii.</p>
+        </div>
+        <div class="card">
+          <h3>Automation & Bots</h3>
+          <p>Telegram/WhatsApp bots na automatisering za shughuli zako.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>Kwa Nini Kuchagua YASSER TECH?</h2>
+      <p>Tunatoa suluhisho zilizobinafsishwa, za kisasa, na tunahakikisha mradi unakua pamoja na wewe.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Wasiliana Nasi</h2>
+      <form id="contactForm">
+        <label>
+          Jina
+          <input type="text" name="name" id="name" required />
+        </label>
+        <label>
+          Barua pepe
+          <input type="email" name="email" id="email" required />
+        </label>
+        <label>
+          Ujumbe
+          <textarea name="message" id="message" rows="5" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary">Tuma</button>
+          <button type="button" id="clearBtn" class="btn-secondary">Futa</button>
+        </div>
+      </form>
+      <p class="note">Au tuma meseji moja kwa moja: <a href="tel:+255719598739">+255 719 598 739</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> YASSER TECH. Haki zote zimehifadhiwa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+  </html>
